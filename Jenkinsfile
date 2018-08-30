@@ -1,5 +1,5 @@
 pipeline {
-  node('master'){
+  node('master')
   agent any
   stages {
     stage('checkout') {
@@ -76,5 +76,4 @@ pipeline {
       }
     }
   }
-}
 }
