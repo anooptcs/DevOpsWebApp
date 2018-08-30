@@ -11,7 +11,7 @@ pipeline {
         stage('Build') {
           steps {
             echo 'Building my maven web project'
-            bat 'mvn clean package'
+            sh 'mvn clean package'
           }
         }
         stage('print') {
